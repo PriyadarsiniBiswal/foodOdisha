@@ -53,7 +53,7 @@
     background-image: linear-gradient(rgba(182, 9, 9, 0.7), rgba(230, 89, 8, 0.7)), url(./IMAGES/foodBG);
     background-position: center;
     background-size: cover;
-    height: 100vh;
+    height: 90vh;
 }
 .header-body .container {
     align-items: center;
@@ -148,6 +148,90 @@
 }
 /*----------------------------------------------Footer section--------------------------------------------------------------*/
 .footer {
-    
+    background: #000;
+    width: 100%;
+    height: 100vh;
+    margin-top: 17rem;
+    padding: 3rem;
 }
 
+.footer .contact-page {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+}
+.footer .contact-page table {
+    color: #fff;  
+    text-align: justify;
+    width: 60%;
+    border-bottom: 1px solid #fff;
+}
+.footer .contact-page table th {
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+.footer .contact-page table, td{
+    padding: 1rem;
+    align-items: center;
+    text-align: center;
+}
+.footer .contact-page table, col{
+    padding: 0 5rem;
+}
+.footer .social-media {
+    width: 100%;
+    height: 30%;
+    margin-top: 3rem;
+}
+.footer .social-media .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer .social-media .row .social-para h1{
+    color: #fff;
+    font-size: 2rem;
+}
+.footer .social-media .row div i {
+    padding: 0 1.5rem;
+    font-size: 3rem;
+}
+.footer .social-media .row .facebook i {
+    color: blue;
+    
+}
+.footer .social-media .row .twitter i {
+    color: #fff;
+}
+.footer .social-media .row .youtube i {
+    color: red;
+}
+.footer .social-media .row .whatsapp i {
+    color: rgb(2, 141, 25);
+}
+.footer .playstore {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footer .playstore .download {
+    display: flex;
+}
+.footer .playstore .download h1 {
+    color: #fff;
+    font-size: 2rem;
+    padding: 1rem;
+}
+.footer .playstore img {
+    width: 200px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.footer .footer-content p{
+    color: blue;
+    padding-top: 3rem;
+}
